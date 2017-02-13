@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "declaration": false
+  },
+  "typeRoots": [
+    "node_modules/@types",
+    "./typings"
+  ],
+  "buildOnSave": false,
+  "compileOnSave": false,
+  "exclude": [
+    "node_modules"
+  ]
+}

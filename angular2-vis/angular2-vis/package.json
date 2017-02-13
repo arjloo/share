@@ -1,0 +1,42 @@
+{
+  "name": "environment",
+  "version": "1.0.0",
+  "description": "I will show you how to set up angular2 development environment",
+  "keywords": [
+    "angular2",
+    "environment"
+  ],
+  "scripts": {
+    "start": "webpack-dev-server --hot --host 0.0.0.0",
+    "postinstall": "typings install"
+  },
+  "author": "arjloo",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^2.4.5",
+    "@angular/compiler": "^2.4.5",
+    "@angular/core": "^2.4.5",
+    "@angular/forms": "^2.4.5",
+    "@angular/platform-browser": "^2.4.5",
+    "@angular/platform-browser-dynamic": "^2.4.5",
+    "@angular/router": "^3.4.7",
+    "core-js": "^2.4.1",
+    "ng2-vis": "0.0.5",
+    "rxjs": "5.0.3",
+    "zone.js": "^0.7.6"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.35",
+    "@types/node": "^7.0.5",
+    "angular2-template-loader": "^0.6.2",
+    "awesome-typescript-loader": "^3.0.4-rc.2",
+    "css-loader": "^0.26.1",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^2.0.0",
+    "typescript": "^2.1.5",
+    "typings": "^2.1.0",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
+  }
+}
